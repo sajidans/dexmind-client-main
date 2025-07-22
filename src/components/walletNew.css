@@ -1,0 +1,12 @@
+.swal-text-white {
+    color: white !important;
+  }
+  
+  .swal-title-white {
+    color: white !important;
+  }
+  
+  .custom-swal-popup {
+    background-color: #222; /* Optional: dark background to highlight white text */
+  }
+  

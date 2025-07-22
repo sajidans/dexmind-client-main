@@ -1,0 +1,65 @@
+.black_btn {
+    border-radius: 3.8125rem;
+    border: 1px solid #222;
+    background: linear-gradient(90deg, #161616 0%, #181919 48.59%, #161616 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+
+.custom-gradient-button {
+    border-radius: 3.8125rem;
+    background: linear-gradient(90deg, #81D8F6 0%, #94DDD4 48.59%, #A4E2B6 100%);
+    font-size: 1.5rem;
+    padding: 1rem 1.75rem; /* py-4 = 1rem, px-7 = 1.75rem */
+    color: black;
+    font-weight: 600; /* font-semibold */
+    transition: opacity 0.3s;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-gradient-button:hover {
+    opacity: 0.9;
+  }
+  
+
+  
+.gradient-text {
+    background: linear-gradient(90deg, #355C96 0%, #66C2C0 36.9%, #238a46 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1rem; /* equivalent to mt-4 in Tailwind */
+  }
+
+
+  @keyframes orbit {
+    0% {
+      transform: translate(50%, 0%) rotate(0deg);
+    }
+    25% {
+      transform: translate(100%, 50%) rotate(90deg);
+    }
+    50% {
+      transform: translate(50%, 100%) rotate(180deg);
+    }
+    75% {
+      transform: translate(0%, 50%) rotate(270deg);
+    }
+    100% {
+      transform: translate(50%, 0%) rotate(360deg);
+    }
+  }
+  
+  .animate-orbit {
+    animation: orbit 15s linear infinite;
+    top: 0;
+    left: 0;
+  }
+  
+  
