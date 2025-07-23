@@ -20,6 +20,6 @@ export const backendConfig = {
   // base: "http://192.168.1.53:8080/api",
   // origin: "http://192.168.1.53:8080",
   //base: "https://api.zentor.us/api",
-  base: "http://localhost:6076/api",
+  base: "https://tradingbackend-4s5j.onrender.com/api",
   origin: "http://localhost:6075",
 };
