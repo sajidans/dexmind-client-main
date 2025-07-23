@@ -21,5 +21,5 @@ export const backendConfig = {
   // origin: "http://192.168.1.53:8080",
   //base: "https://api.zentor.us/api",
   base: "https://tradingbackend-4s5j.onrender.com/api",
-  origin: "http://localhost:6075",
+  origin: "https://tradenovaa.netlify.app",
 };
