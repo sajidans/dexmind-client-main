@@ -2,9 +2,9 @@
 import appLogoClr from "../../assets/logo.png";
 import icon from "../../assets/logo.png";
 export const MainContent = {
-  appName: "ZENTOR",
+  appName: "Dexmind",
   appLogo: appLogoClr,
-  appLogoClr: appLogoClr,
+  appLogoClr: appLogoClr, 
   appURL: "",
   contactNo: "+9876324862552",
   email: "info@example.com",
@@ -17,9 +17,9 @@ export const backendConfig = {
 
   // base: "http://192.168.1.53:8080/api",
   // origin: "http://192.168.1.53:8080",
-  // base: "http://192.168.1.53:8080/api",
-  // origin: "http://192.168.1.53:8080",
+  //  base: "http://192.168.154.52:6077/api",  
+  // origin: "http://192.168.154.52:6076",    
   //base: "https://api.zentor.us/api",
-  base: "https://tradingbackend-4s5j.onrender.com/api",
-  origin: "https://tradenovaa.netlify.app",
+ base: "https://tradingbackend-4s5j.onrender.com/api",   
+  origin: "https://mlmdemo.bizbundle.in",  
 };

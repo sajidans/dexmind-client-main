@@ -111,7 +111,7 @@ const AuthLoginForm = () => {
         >
           Welcome to{" "}
           <span className="text-[#45C66F] font-semibold text-[2.0945rem] leading-none font-sofia">
-            zentor
+          Dexmind
           </span>
         </h5>
 

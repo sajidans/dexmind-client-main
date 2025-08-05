@@ -452,7 +452,7 @@ const AuthRegisterForm = () => {
           className="text-white text-center my-12 text-3xl font-semibold font-sofia"
           data-aos="fade-up"
         >
-          Welcome to <span className="text-[#45C66F]">zentor</span>
+          Welcome to <span className="text-[#45C66F]">Dexmind</span>
         </h5>
 
         <div className="bg-[#1e1f26] max-w-xl mx-auto p-6 rounded-[2rem] mb-20">
